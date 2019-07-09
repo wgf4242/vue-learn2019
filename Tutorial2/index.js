@@ -13,3 +13,10 @@ vm.$watch('a', function (newValue, oldValue) {
     // 这个回调将在 `vm.a` 改变后调用
 })
 
+var app = new Vue({
+    el: '#app',
+    data: {
+        message: 'Hello Vue!'
+    }
+});
+app.message = 'None'
